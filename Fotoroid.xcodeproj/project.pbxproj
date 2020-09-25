@@ -13,6 +13,10 @@
 		DD1C9E04251C0B3A00B2E0AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD1C9E02251C0B3A00B2E0AD /* Main.storyboard */; };
 		DD1C9E06251C0B3B00B2E0AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD1C9E05251C0B3B00B2E0AD /* Assets.xcassets */; };
 		DD1C9E09251C0B3B00B2E0AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD1C9E07251C0B3B00B2E0AD /* LaunchScreen.storyboard */; };
+		DD1C9E13251C156D00B2E0AD /* EffectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1C9E12251C156D00B2E0AD /* EffectsViewController.swift */; };
+		DD1C9E17251C15B200B2E0AD /* FinalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1C9E16251C15B200B2E0AD /* FinalViewController.swift */; };
+		DD1C9E1B251D500E00B2E0AD /* FilterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1C9E1A251D500E00B2E0AD /* FilterManager.swift */; };
+		DD1C9E28251D593000B2E0AD /* EffectCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1C9E27251D593000B2E0AD /* EffectCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		DD1C9E05251C0B3B00B2E0AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD1C9E08251C0B3B00B2E0AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD1C9E0A251C0B3B00B2E0AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD1C9E12251C156D00B2E0AD /* EffectsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectsViewController.swift; sourceTree = "<group>"; };
+		DD1C9E16251C15B200B2E0AD /* FinalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalViewController.swift; sourceTree = "<group>"; };
+		DD1C9E1A251D500E00B2E0AD /* FilterManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterManager.swift; sourceTree = "<group>"; };
+		DD1C9E27251D593000B2E0AD /* EffectCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +67,11 @@
 				DD1C9DFC251C0B3900B2E0AD /* AppDelegate.swift */,
 				DD1C9DFE251C0B3900B2E0AD /* SceneDelegate.swift */,
 				DD1C9E00251C0B3900B2E0AD /* ViewController.swift */,
+				DD1C9E12251C156D00B2E0AD /* EffectsViewController.swift */,
+				DD1C9E16251C15B200B2E0AD /* FinalViewController.swift */,
+				DD1C9E1A251D500E00B2E0AD /* FilterManager.swift */,
 				DD1C9E02251C0B3A00B2E0AD /* Main.storyboard */,
+				DD1C9E27251D593000B2E0AD /* EffectCollectionViewCell.swift */,
 				DD1C9E05251C0B3B00B2E0AD /* Assets.xcassets */,
 				DD1C9E07251C0B3B00B2E0AD /* LaunchScreen.storyboard */,
 				DD1C9E0A251C0B3B00B2E0AD /* Info.plist */,
@@ -137,9 +149,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD1C9E17251C15B200B2E0AD /* FinalViewController.swift in Sources */,
 				DD1C9E01251C0B3900B2E0AD /* ViewController.swift in Sources */,
 				DD1C9DFD251C0B3900B2E0AD /* AppDelegate.swift in Sources */,
+				DD1C9E13251C156D00B2E0AD /* EffectsViewController.swift in Sources */,
 				DD1C9DFF251C0B3900B2E0AD /* SceneDelegate.swift in Sources */,
+				DD1C9E1B251D500E00B2E0AD /* FilterManager.swift in Sources */,
+				DD1C9E28251D593000B2E0AD /* EffectCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,7 +311,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.viniciustsalomao.Fotoroid;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -313,7 +329,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.viniciustsalomao.Fotoroid;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
